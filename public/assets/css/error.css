@@ -59,7 +59,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 220px;
+  font-size: 2rem;
   font-weight: 900;
   margin: 0px;
   color: #4154f1;
@@ -69,7 +69,7 @@ body {
 
 .notfound h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #4154f1;
@@ -129,17 +129,61 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  .notfound .notfound-404 h1 {
-    font-size: 182px;
+  .notfound .notfound-404 h2 {
+    font-size: 15px;
+    margin-top: 20%;}
+  
+    img{
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+    body{
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+    .notfound  {
+      margin-top: 0%;
+    }
   }
-}
 
+  @media only screen and (min-width: 1024px) {
+    .notfound .notfound-404 h2 {
+      font-size: 30px;
+      margin-top: 20%;}
+    
+      img{
+        margin-top: 10%;
+        margin-bottom: 10%;
+      }
+      body{
+        padding-top: 15%;
+      }
+
+      .notfound-social{
+        padding-bottom: 10%;
+      }
+      .notfound  {
+        margin-top: 0%;
+      }
+    }
 @media only screen and (max-width: 480px) {
   .notfound .notfound-404 {
-    height: 146px;
+    height: 15px;
+
+  }
+  .notfound-social{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  body{
+    padding-top: 0%;
+  }
+
+  img{
+    margin-top: 20%;
   }
   .notfound .notfound-404 h1 {
-    font-size: 146px;
+    font-size: 15px;
   }
   .notfound h2 {
     font-size: 16px;
