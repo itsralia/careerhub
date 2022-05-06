@@ -55,11 +55,16 @@ app.get("/", function(req, res){
     res.render("services")
   
   });
+
 // custom 404 page handler
 app.get("*", (req, res) => {
-    res.render("error",)
+    res.render("error")
   
   });
+
+
+
+
 
 
 
