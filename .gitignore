@@ -7,3 +7,5 @@ npm-debug.log
 npm-debug.log
 .DS_Store
 /*.env
+
+# changes in the nodemodules folder basically
